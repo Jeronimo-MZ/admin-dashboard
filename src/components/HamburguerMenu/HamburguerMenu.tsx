@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
+import SidebarContext from "../../contexts/SidebarContext";
 
 import styles from "./../../styles/components/HamburguerMenu.module.css";
 
-const HamburguerMenu: React.FC<{ closed: boolean }> = ({ closed = false }) => {
+const HamburguerMenu: React.FC = () => {
+    const { isSidebarOpened, toggleSidebar } = useContext(SidebarContext);
     return (
-        <div>
+        <div
+            className={`${styles.hamburguer} ${
+                isSidebarOpened ? styles.active : ""
+            }`}
+            onClick={toggleSidebar}
+        >
             <span></span>
             <span></span>
         </div>

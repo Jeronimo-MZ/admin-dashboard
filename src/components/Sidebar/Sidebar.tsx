@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
     faAward,
@@ -14,13 +14,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import styles from "./../../styles/components/Sidebar.module.css";
 import logo from "./../../assets/logo.png";
+import SidebarContext from "../../contexts/SidebarContext";
 
 const Sidebar: React.FC = () => {
     const location = useLocation()?.pathname;
+    const { isSidebarOpened } = useContext(SidebarContext);
 
     return (
-        <aside className={styles.container}>
-            {/* <div className={styles.overlay}></div> */}
+        <aside
+            className={`${styles.container} ${
+                isSidebarOpened ? styles.show : ""
+            }`}
+        >
             <div className={styles.logo}>
                 <img src={logo} alt="logo" />
                 <strong>Dashboard Kit</strong>
@@ -44,7 +49,7 @@ const Sidebar: React.FC = () => {
                     </li>
                     <li>
                         <Link
-                            to="/"
+                            to="/tickets"
                             className={
                                 location === "/tickets" ? styles.active : ""
                             }

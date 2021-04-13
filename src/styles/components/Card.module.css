@@ -1,0 +1,36 @@
+.container {
+    background-color: var(--card-background);
+    min-width: 23rem;
+    max-width: 25.8rem;
+    height: 13.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid var(--card-border);
+    border-radius: 1rem;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.2s;
+}
+
+.container strong {
+    color: var(--card-title);
+    font-size: 1.9rem;
+    transition: color 0.2s;
+}
+.container span {
+    color: var(--card-value);
+    font-size: 4rem;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.container:hover {
+    border-color: var(--card-hover);
+}
+
+.container:hover strong,
+.container:hover span {
+    color: var(--card-hover);
+}

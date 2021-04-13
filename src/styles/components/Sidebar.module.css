@@ -1,7 +1,7 @@
 .container {
-    height: 100vh;
+    min-height: 100vh;
     width: 255px;
-    padding: 3rem 0;
+    padding-top: 3rem;
 
     background-color: var(--sidebar-background);
     overflow-y: auto;
@@ -18,19 +18,6 @@
     left: 0;
     opacity: 1;
 }
-/* 
-.overlay {
-
-    position: absolute;
-    z-index: 99;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.show .overlay {
-} 
-*/
 
 .logo {
     padding: 0 3rem;
@@ -84,7 +71,7 @@
     border-left: 3px solid var(--link-active);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 550px) {
     .container {
         position: initial;
         z-index: initial;

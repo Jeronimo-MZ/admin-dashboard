@@ -1,0 +1,33 @@
+.container {
+    transition: 0.7s;
+}
+
+.overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.73);
+    z-index: -1;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 990;
+}
+@media screen and (min-width: 550px) {
+    .container {
+        display: grid;
+        grid-template-columns: 255px auto;
+    }
+
+    .overlay {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+}

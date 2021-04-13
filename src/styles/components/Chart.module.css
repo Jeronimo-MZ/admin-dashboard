@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    padding: 2rem;
+    /* height: 100%; */
+}
+
+.container canvas {
+    width: 100%;
+    min-height: 15rem;
+}
