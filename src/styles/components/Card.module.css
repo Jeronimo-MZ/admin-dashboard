@@ -11,7 +11,8 @@
     border: 2px solid var(--card-border);
     border-radius: 1rem;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
-    transition: border-color 0.2s;
+    transition: border-color 0.2s, transform 0.3s;
+    cursor: pointer;
 }
 
 .container strong {
@@ -28,6 +29,7 @@
 
 .container:hover {
     border-color: var(--card-hover);
+    transform: scale(1.05);
 }
 
 .container:hover strong,

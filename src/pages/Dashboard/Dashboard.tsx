@@ -28,7 +28,11 @@ const Dashboard: React.FC = () => {
                         <Card title="On hold" value={64} />
                     </section>
                     <section className={styles.trends}>
-                        <Chart />
+                        <div className={styles.left}>
+                            <h2>Today&apos;s trends</h2>
+                            <p>as of 25 may 2019, 09:41 PM</p>
+                            <Chart />
+                        </div>
 
                         <ul>
                             <li>
@@ -39,20 +43,27 @@ const Dashboard: React.FC = () => {
                             </li>
                             <li>
                                 <div>
-                                    <strong>Resolved</strong>
-                                    <span>449</span>
+                                    <strong>Received</strong>
+                                    <span>426</span>
                                 </div>
                             </li>
                             <li>
                                 <div>
-                                    <strong>Resolved</strong>
-                                    <span>449</span>
+                                    <strong>Average first response time</strong>
+                                    <span>33 m</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div>
+                                    <strong>Average response time</strong>
+                                    <span>3h 8m</span>
                                 </div>
                             </li>
                             <li>
                                 <div>
-                                    <strong>Resolved</strong>
-                                    <span>449</span>
+                                    <strong>Resolution whithin SLA</strong>
+                                    <span>94%</span>
                                 </div>
                             </li>
                         </ul>
