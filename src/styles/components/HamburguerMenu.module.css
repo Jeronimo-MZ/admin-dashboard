@@ -27,7 +27,7 @@
     transition: 0.5s;
 }
 
-.hamburguer span:nth-child(2) {
+.hamburguer.active span:nth-child(2) {
     display: none;
 }
 
