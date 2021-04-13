@@ -19,6 +19,10 @@ import SidebarContext from "../../contexts/SidebarContext";
 const Sidebar: React.FC = () => {
     const location = useLocation()?.pathname;
     const { isSidebarOpened } = useContext(SidebarContext);
+    const toggleDarkTheme = () => {
+        const root = document.querySelector(":root");
+        root?.classList.toggle("dark");
+    };
 
     return (
         <aside
@@ -26,7 +30,7 @@ const Sidebar: React.FC = () => {
                 isSidebarOpened ? styles.show : ""
             }`}
         >
-            <div className={styles.logo}>
+            <div className={styles.logo} onClick={toggleDarkTheme}>
                 <img src={logo} alt="logo" />
                 <strong>Dashboard Kit</strong>
             </div>

@@ -43,6 +43,7 @@ section {
 }
 
 .trends {
+    background: white;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -59,7 +60,7 @@ section {
 .trends .left h2 {
     font-size: 2rem;
     padding: 1.5rem 2rem;
-    color: var(--text-primary);
+    color: var(--text-title);
 }
 
 .trends .left p {

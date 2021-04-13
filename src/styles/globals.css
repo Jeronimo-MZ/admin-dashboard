@@ -9,6 +9,7 @@
     font-size: 62.5%;
     font-family: "Mulish", sans-serif;
 
+    --background: #f7f8fc;
     --sidebar-background: #363740;
     --text-grey: #a4a6b3;
     --link-active: #dde2ff;
@@ -16,6 +17,7 @@
     --header-icon: #c5c7cd;
     --hamburguer: black;
     --text-primary: #252733;
+    --text-title: black;
 
     /* cards */
     --card-background: #ffffff;
@@ -23,6 +25,20 @@
     --card-title: #9fa2b4;
     --card-value: #252733;
     --card-hover: #3751ff;
+}
+
+:root.dark {
+    --background: #242428;
+
+    --grey-divider: #dfe0eb28;
+    --header-icon: #fff;
+    --hamburguer: white;
+    --text-primary: #fff;
+    --text-title: black;
+}
+
+body {
+    background-color: var(--background);
 }
 
 a {
