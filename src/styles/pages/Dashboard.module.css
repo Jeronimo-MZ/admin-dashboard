@@ -30,6 +30,7 @@
 
 section {
     max-width: 1080px;
+    min-width: 258px;
 }
 
 .cards {
@@ -82,7 +83,7 @@ section {
     font-weight: bold;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 576px) {
     .container {
         display: grid;
         grid-template-columns: 255px auto;
@@ -102,7 +103,9 @@ section {
     .trends ul {
         border-left: 1px solid var(--card-border);
     }
-
+    .trends ul li div {
+        width: 300px;
+    }
     .trends ul li:first-child div {
         border-top: none;
     }

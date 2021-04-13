@@ -44,7 +44,7 @@
     transform: translateY(-50%) rotateZ(45deg);
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 576px) {
     .hamburguer {
         opacity: 0;
         visibility: hidden;
