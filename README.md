@@ -1,46 +1,135 @@
-# Getting Started with Create React App
+# Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./.github/project.png" alt="Admin Dashboard">
 
-## Available Scripts
+<p align="center">
+    <br />
+    <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a> -->
+    <!-- · -->
+    <a href="https://github.com/jeronimo-mz/admin-dashboard/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/jeronimo-mz/admin-dashboard/issues">Request Feature</a>
+  </p>
+<br/><br/>
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#💻-the-project">About The Project</a>
+      <ul>
+        <li><a href="#✨-techs">Technologies</a></li>
+        <li><a href="#🔖-layout">Layout</a></li>
+        <li><a href="#🚀-deploy">Deploy</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#🚀-getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#running-the-project">Running the project</a></li>
+      </ul>
+    </li>
+    <li><a href="#🦸-contributing">Contributing</a></li>
+    <li><a href="#🦸-contact">Contact</a></li>
+    <li><a href="#📝-licence">License</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## 💻 The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project is a reproduction of the layout of an Admin Dashboard built using ReactJs & Typescript.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### ✨ Techs
 
-### `yarn test`
+This project was built using the following technologies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   [ReactJS](https://reactjs.org/)
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [Yarn](https://yarnpkg.com/)
+-   [Chart.js](https://www.chartjs.org)
+-   [React-chartjs-2](reactchartjs.github.io/react-chartjs-2/)
+-   [CSS Modules](https://github.com/css-modules/css-modules) (already included in create-react-app)
+-   [Create React App](https://github.com/facebook/create-react-app)
 
-### `yarn build`
+### 🔖 Layout
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can access the layout of the project through this [link](<https://www.figma.com/file/mL65Vhhcnv4ZOmUKlsNdGI/Figma-Admin-Dashboard-UI-Kit-(Community)?node-id=584%3A31>). A [Figma](https://www.figma.com/) account is required to access it.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🚀 Deploy
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   Pending...
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🚀 Getting Started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To run this project you must have [Yarn](https://yarnpkg.com/) installed on your machine
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repository
+    ```sh
+    $ git clone https://github.com/Jeronimo-MZ/admin-dashboard.git
+    ```
+2. Move to the project directory
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```sh
+    $ cd admin-dashboard
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install the dependencies
+    ```sh
+    $ yarn
+    ```
+
+### Running the project
+
+1. Move to the project directory
+    ```sh
+    $ cd admin-dashboard
+    ```
+2. start the project on the local server
+
+    ```sh
+      $ yarn dev
+    ```
+
+3. open [http://localhost:3000](http://localhost:3000) on your browser to see the project running
+
+## 🦸 Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 🦸 Contact
+
+<a href="https://github.com/Jeronimo-MZ">
+ <b>Jerónimo Matavel</b></a> <a href="https://www.linkedin.com/in/jeronimo-matavel/" title="Jerónimo Matavel">🚀</a>
+ <br/>
+
+Project Link: <a href="https://github.com/Jeronimo-MZ/admin-dashboard">https://github.com/Jeronimo-MZ/admin-dashboard</a>
+<br/>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Jerónimo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jeronimo-matavel/)](https://www.linkedin.com/in/jeronimo-matavel/)
+[![Gmail Badge](https://img.shields.io/badge/-mataveljeronimo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mataveljeronimo@gmail.com)](mailto:mataveljeronimo@gmail.com)
+
+---
+
+## 📝 Licence
+
+Distributed under the MIT License. See [LICENCE](./LICENSE) for more information.
+
+<p align="center">
+Made With ❤️ by Jerónimo Matavel 👋🏽 <a href="https://www.linkedin.com/in/jeronimo-matavel/">Contact me!</a>
+</p>
