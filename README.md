@@ -4,8 +4,8 @@
 
 <p align="center">
     <br />
-    <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a> -->
-    <!-- · -->
+    <a href="https://admin-dashboard-smoky.vercel.app">View Demo</a>
+    ·
     <a href="https://github.com/jeronimo-mz/admin-dashboard/issues">Report Bug</a>
     ·
     <a href="https://github.com/jeronimo-mz/admin-dashboard/issues">Request Feature</a>
@@ -61,7 +61,7 @@ You can access the layout of the project through this [link](<https://www.figma.
 
 ### 🚀 Deploy
 
--   Pending...
+the deployment was made at [Vercel](https://vercel.com/) and can be accessed through this [link](https://admin-dashboard-smoky.vercel.app).
 
 ---
 

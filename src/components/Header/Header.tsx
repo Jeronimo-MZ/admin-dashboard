@@ -22,13 +22,13 @@ const Header: React.FC<{ page: string }> = ({ page = "" }) => {
                         <FontAwesomeIcon icon={faBell} />
                     </button>
                 </div>
-                <Link
-                    to="https://github.com/jeronimo-mz"
+                <a
+                    href="https://github.com/jeronimo-mz"
                     className={styles.user}
                 >
                     <strong>Jerónimo Matavel</strong>
                     <img src={avatar} alt="Jerónimo" />
-                </Link>
+                </a>
             </div>
         </header>
     );
