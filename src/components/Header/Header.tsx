@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "../../styles/components/Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faSearch } from "@fortawesome/free-solid-svg-icons";
@@ -21,10 +22,13 @@ const Header: React.FC<{ page: string }> = ({ page = "" }) => {
                         <FontAwesomeIcon icon={faBell} />
                     </button>
                 </div>
-                <div className={styles.user}>
+                <Link
+                    to="https://github.com/jeronimo-mz"
+                    className={styles.user}
+                >
                     <strong>Jerónimo Matavel</strong>
                     <img src={avatar} alt="Jerónimo" />
-                </div>
+                </Link>
             </div>
         </header>
     );
