@@ -1,7 +1,7 @@
 .container {
     background-color: var(--card-background);
     min-width: 23rem;
-    max-width: 25.8rem;
+    width: 100%;
     height: 13.4rem;
     display: flex;
     align-items: center;
@@ -35,4 +35,10 @@
 .container:hover strong,
 .container:hover span {
     color: var(--blue);
+}
+
+@media screen and (min-width: 850px) {
+    .container {
+        max-width: 25.8rem;
+    }
 }
