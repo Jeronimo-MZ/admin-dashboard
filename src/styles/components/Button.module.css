@@ -1,0 +1,8 @@
+.container {
+    background: var(--button-background-grey);
+    padding: 1rem;
+    border: none;
+    color: var(--card-title);
+    border-radius: 1rem;
+    cursor: pointer;
+}

@@ -72,6 +72,7 @@ body {
 ::-webkit-scrollbar-thumb {
     background: rgb(172, 171, 171);
     background: rgba(148, 148, 148, 0.637);
+    transition: 0.3s;
 }
 
 ::-webkit-scrollbar-thumb:hover {

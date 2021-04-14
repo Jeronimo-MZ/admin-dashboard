@@ -8,7 +8,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    border: 2px solid var(--card-border);
+    border: 2px solid var(--border);
     border-radius: 1rem;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
     transition: border-color 0.2s, transform 0.3s;
@@ -28,11 +28,11 @@
 }
 
 .container:hover {
-    border-color: var(--card-hover);
+    border-color: var(--blue);
     transform: scale(1.05);
 }
 
 .container:hover strong,
 .container:hover span {
-    color: var(--card-hover);
+    color: var(--blue);
 }
