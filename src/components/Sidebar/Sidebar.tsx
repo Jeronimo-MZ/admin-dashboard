@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
     faAward,
@@ -19,10 +19,29 @@ import SidebarContext from "../../contexts/SidebarContext";
 const Sidebar: React.FC = () => {
     const location = useLocation()?.pathname;
     const { isSidebarOpened } = useContext(SidebarContext);
+    const localStorageVar = "dashboard:theme";
+
     const toggleDarkTheme = () => {
         const root = document.querySelector(":root");
-        root?.classList.toggle("dark");
+
+        if (root?.classList.contains("dark")) {
+            localStorage.setItem(localStorageVar, "light");
+            root?.classList.remove("dark");
+        } else {
+            localStorage.setItem(localStorageVar, "dark");
+            root?.classList.add("dark");
+        }
     };
+
+    useEffect(() => {
+        const theme = localStorage.getItem(localStorageVar) || "light";
+        const root = document.querySelector(":root");
+
+        if (theme === "dark") {
+            localStorage.setItem(localStorageVar, "dark");
+            root?.classList.add("dark");
+        }
+    }, []);
 
     return (
         <aside

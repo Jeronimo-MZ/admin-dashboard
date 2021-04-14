@@ -34,7 +34,7 @@
 
 .container:hover strong,
 .container:hover span {
-    color: var(--blue);
+    color: var(--text-blue);
 }
 
 @media screen and (min-width: 850px) {

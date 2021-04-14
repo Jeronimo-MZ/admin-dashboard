@@ -43,7 +43,7 @@ section {
 }
 
 .trends {
-    background: white;
+    background: var(--card-background);
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -58,7 +58,7 @@ section {
     height: 100%;
 }
 .trends .left h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding: 1.5rem 2rem;
     color: var(--text-title);
 }
@@ -100,7 +100,7 @@ section {
     font-weight: 600;
 }
 .trends ul li div span {
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: var(--card-value);
     font-weight: bold;
 }
@@ -147,24 +147,24 @@ section {
 }
 .tasks header h2,
 .tickets header h2 {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
     font-weight: bold;
-    color: var(--card--value);
+    color: var(--card-value);
 }
 
 .tasks header p,
 .tickets header p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--text-grey);
 }
 .tickets header p span {
-    color: var(--card--value);
+    color: var(--card-value);
     font-weight: bold;
 }
 .tasks header strong,
 .tickets header strong {
     color: var(--blue);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-align: right;
     cursor: pointer;
 }
@@ -184,8 +184,8 @@ section {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    font-size: 1.4rem;
-    color: var(--text);
+    font-size: 1.6rem;
+    color: var(--card-value);
     padding: 1.5rem 2rem;
     border-top: 1px solid var(--border);
     gap: 2rem;
@@ -198,7 +198,8 @@ section {
 }
 
 .new__task {
-    font-size: 1.4rem;
+    color: var(--card-value);
+    font-size: 1.6rem;
     padding: 0 2rem;
     display: flex;
     align-items: center;

@@ -26,16 +26,23 @@
     --card-title: #9fa2b4;
     --card-value: #252733;
     --blue: #3751ff;
+    --text-blue: var(--blue);
 }
 
 :root.dark {
-    --background: #242428;
+    --background: #1d1d29;
 
-    --grey-divider: #dfe0eb28;
     --header-icon: #fff;
     --hamburguer: white;
     --text-primary: #fff;
-    --text-title: black;
+    --text-title: rgb(255, 255, 255);
+    --border: #25252b;
+
+    --text-blue: #5568e2;
+
+    --card-background: #13131a;
+    --card-title: #9fa2b4;
+    --card-value: #fff;
 }
 
 body {
