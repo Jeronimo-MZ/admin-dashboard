@@ -2,6 +2,18 @@
     "name": "figma-admin-dashboard",
     "version": "0.1.0",
     "private": true,
+    "author": "Jerónimo Matavel",
+    "license": "MIT",
+    "keywords": [
+        "reactjs",
+        "typescript",
+        "chartjs",
+        "react-chartjs-2",
+        "css-modules",
+        "responsive",
+        "mobile-first",
+        "dashboard"
+    ],
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.35",
         "@fortawesome/free-solid-svg-icons": "^5.15.3",
