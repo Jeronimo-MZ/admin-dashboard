@@ -16,24 +16,24 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#💻-the-project">About The Project</a>
+      <a href="#-the-project">About The Project</a>
       <ul>
-        <li><a href="#✨-techs">Technologies</a></li>
-        <li><a href="#🔖-layout">Layout</a></li>
-        <li><a href="#🚀-deploy">Deploy</a></li>
+        <li><a href="#-techs">Technologies</a></li>
+        <li><a href="#-layout">Layout</a></li>
+        <li><a href="#-deploy">Deploy</a></li>
       </ul>
     </li>
     <li>
-      <a href="#🚀-getting-started">Getting Started</a>
+      <a href="#-getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#running-the-project">Running the project</a></li>
       </ul>
     </li>
-    <li><a href="#🦸-contributing">Contributing</a></li>
-    <li><a href="#🦸-contact">Contact</a></li>
-    <li><a href="#📝-licence">License</a></li>
+    <li><a href="#-contributing">Contributing</a></li>
+    <li><a href="#-contact">Contact</a></li>
+    <li><a href="#-licence">License</a></li>
   </ol>
 </details>
 
